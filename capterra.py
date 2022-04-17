@@ -15,4 +15,7 @@ for i in range(1,200):
 import pdb; pdb.set_trace()
 for link in driver.find_elements(By.XPATH,'//div[@class="nb-flex nb-justify-between"]/h2/a')[0].get_attribute('href'):
     print(link[0].get_attribute('href'))
+
+
+    sasasa
     
